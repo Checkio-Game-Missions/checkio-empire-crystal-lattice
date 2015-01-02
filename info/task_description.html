@@ -1,0 +1,59 @@
+<div class="story">
+    <p>
+        In a great number of the cosmogonic myths the world is said to have developed from a great water, which was the
+        prime matter. In many cases, as for instance in an Indian myth, this prime matter is indicated as a solution,
+        out of which the solid earth crystallized out.
+    </p>
+
+    <p>
+        -- Svante Arrhenius
+    </p>
+
+</div>
+<p>
+    And we ready to check crystals in all directions.
+    Let's take cubic crystal sample and check this.
+    Our crystal contains two atoms - "X" (Xenatom) and "Z" (Zorium).
+    These atoms should alternate each other in all three dimensions.
+</p>
+
+<p>
+    You are given a random sample from crystal lattice as 3D array of letters.
+
+    The good crystal should have the periodic arrangement (one by one) in rows, columns and depth lines.
+    If any atoms are repeated in these lines, then this crystal is broken.
+</p>
+
+<p style="text-align: center;">
+    <img class="for_info_only" title="cube" src="{{MEDIA}}cube.svg" alt="cube"/>
+    <img class="for_editor_only" title="cube" src="{{MEDIA}}cube.svg" alt="cube" width="380px"/>
+</p>
+
+<p>
+    <strong>Input: </strong> Atom cube as a list of lists of list of strings.
+</p>
+
+<p>
+    <strong>Output: </strong> Is a crystal good or not as a boolean.
+</p>
+
+
+<div class="for_info_only">
+
+    <p>
+        <strong>Example:</strong>
+    </p>
+    <textarea data-code="python"></textarea>
+</div>
+
+<p class="for_info_only">
+    <strong>How it is used: </strong>
+
+</p>
+
+<p>
+    <strong>Precondition:</strong><br>
+    1 &lt; len(cube) &le; 5<br>
+    len(cube) == len(cube[0]) == len(cube[0][0])<br>
+    all(all(all(ch in "XZ" for ch in row) for row in grid) for grid in cube)
+</p>

@@ -3,4 +3,57 @@ def check_cube(cube):
 
 if __name__ == '__main__':
     # These "asserts" using only for self-checking and not necessary for auto-testing
-    pass
+    assert check_cube([
+        [
+            ["X", "Z"],
+            ["Z", "X"]
+        ],
+        [
+            ["Z", "X"],
+            ["X", "Z"],
+        ],
+    ]), "2x2x2 Good"
+    assert not check_cube([
+        [
+            ["X", "Z"],
+            ["Z", "X"]
+        ],
+        [
+            ["X", "Z"],
+            ["Z", "X"],
+        ],
+    ]), "2x2x2 Bad"
+    assert check_cube([
+        [
+            ["X", "Z", "X"],
+            ["Z", "X", "Z"],
+            ["X", "Z", "X"],
+        ],
+        [
+            ["Z", "X", "Z"],
+            ["X", "Z", "X"],
+            ["Z", "X", "Z"],
+        ],
+        [
+            ["X", "Z", "X"],
+            ["Z", "X", "Z"],
+            ["X", "Z", "X"],
+        ],
+    ]), "3x3x3 Good"
+    assert not check_cube([
+        [
+            ["X", "Z", "X"],
+            ["Z", "X", "Z"],
+            ["X", "Z", "X"],
+        ],
+        [
+            ["Z", "X", "Z"],
+            ["X", "X", "X"],
+            ["Z", "X", "Z"],
+        ],
+        [
+            ["X", "Z", "X"],
+            ["Z", "X", "Z"],
+            ["X", "Z", "X"],
+        ],
+    ]), "3x3x3 Bad"

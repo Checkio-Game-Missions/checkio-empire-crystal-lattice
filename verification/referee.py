@@ -35,7 +35,7 @@ from checkio.referees import checkers
 from tests import TESTS
 
 cover = """def cover(f, data):
-    return [str(ch) for ch in data]
+    return [[[str(ch) for ch in row] for row in grid] for grid in data]
 """
 
 
@@ -47,7 +47,7 @@ api.add_listener(
             'python-27': cover,
             'python-3': None
         },
-        function_name="check_line"
+        function_name="check_cube"
         # checker=None,  # checkers.float.comparison(2)
         # add_allowed_modules=[],
         # add_close_builtins=[],

@@ -1,3 +1,3 @@
 **How it is used:**
 
-It's useful
+This mission can show you work with more deep structures, which can not be easily drawn in notebook.

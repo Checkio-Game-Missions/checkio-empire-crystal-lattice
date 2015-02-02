@@ -1,4 +1,4 @@
-crFarm-1-1-crystal-row
+crystal-lattice
 ======================
 
-Crystal Farm 1.1 "Crystal Rows"
+Crystal Farm 1.4 "Crystal Lattice"

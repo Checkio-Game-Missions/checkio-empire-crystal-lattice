@@ -1,9 +1,9 @@
-def check_cube(cube):
+def check_lattice(cube):
     return True or False
 
 if __name__ == '__main__':
     # These "asserts" using only for self-checking and not necessary for auto-testing
-    assert check_cube([
+    assert check_lattice([
         [
             ["X", "Z"],
             ["Z", "X"]
@@ -13,7 +13,7 @@ if __name__ == '__main__':
             ["X", "Z"],
         ],
     ]), "2x2x2 Good"
-    assert not check_cube([
+    assert not check_lattice([
         [
             ["X", "Z"],
             ["Z", "X"]
@@ -23,7 +23,7 @@ if __name__ == '__main__':
             ["Z", "X"],
         ],
     ]), "2x2x2 Bad"
-    assert check_cube([
+    assert check_lattice([
         [
             ["X", "Z", "X"],
             ["Z", "X", "Z"],
@@ -40,7 +40,7 @@ if __name__ == '__main__':
             ["X", "Z", "X"],
         ],
     ]), "3x3x3 Good"
-    assert not check_cube([
+    assert not check_lattice([
         [
             ["X", "Z", "X"],
             ["Z", "X", "Z"],

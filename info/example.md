@@ -1,7 +1,7 @@
 **Example:**
 
 ```python
-check_cube([[["X", "Z"],
+check_lattice([[["X", "Z"],
              ["Z", "X"]],
             [["Z", "X"],
              ["X", "Z"]]])

@@ -10,7 +10,6 @@ cover = """def cover(f, data):
 """
 
 
-
 class Referee(RefereeBase):
     TESTS = TESTS
     EXECUTABLE_PATH = settings.EXECUTABLE_PATH

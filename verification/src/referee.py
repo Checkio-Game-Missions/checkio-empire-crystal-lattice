@@ -1,4 +1,4 @@
-from checkio_referee import RefereeBase
+from checkio_referee import RefereeCodeGolf
 
 import settings
 import settings_env
@@ -10,11 +10,13 @@ cover = """def cover(f, data):
 """
 
 
-class Referee(RefereeBase):
+class Referee(RefereeCodeGolf):
     TESTS = TESTS
+    DEFAULT_LENGTH = 200
+    BASE_POINTS = 20
     EXECUTABLE_PATH = settings.EXECUTABLE_PATH
     CURRENT_ENV = settings_env.CURRENT_ENV
-    FUNCTION_NAME = "check_lattice"
+    FUNCTION_NAME = "golf"
     ENV_COVERCODE = {
         "python_2": cover,
         "python_3": None,

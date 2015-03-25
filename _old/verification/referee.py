@@ -47,7 +47,7 @@ api.add_listener(
             'python-27': cover,
             'python-3': None
         },
-        function_name="check_cube"
+        DEFAULT_FUNCTION_NAME="check_cube"
         # checker=None,  # checkers.float.comparison(2)
         # add_allowed_modules=[],
         # add_close_builtins=[],

@@ -8,8 +8,3 @@ Y and Z axis (height, width, depth). If any atoms are found next to the same typ
 unusable.
 
 ![Rows](cube.svg)
-
-In this mission the main goal to make your code as short as possible.
-The shorter your code, the more points you earn.
-Your score for this mission is dynamic and directly related to the length of your code.
-For reference, scoring is based on the number of characters used.

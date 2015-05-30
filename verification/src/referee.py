@@ -12,13 +12,12 @@ cover = """def cover(f, data):
 
 class Referee(RefereeCodeGolf):
     TESTS = TESTS
-    DEFAULT_LENGTH = 250
-    BASE_POINTS = 20
+    DEFAULT_MAX_CODE_LENGTH = 300
+    BASE_POINTS = 10
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
     DEFAULT_FUNCTION_NAME = "golf"
     ENV_COVERCODE = {
-        "python_2": cover,
         "python_3": None,
         "javascript": None
     }

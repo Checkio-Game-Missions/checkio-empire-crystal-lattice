@@ -6,5 +6,3 @@ should alternate down each of the three axis.
 You are given a sample crystal as a 3D array of atoms. Well formed crystals will have atoms alternating along the X,
 Y and Z axis (height, width, depth). If any atoms are found next to the same type of atom, then this crystal is
 unusable.
-
-![Rows](cube.svg)

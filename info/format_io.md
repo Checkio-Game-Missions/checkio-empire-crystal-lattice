@@ -1,3 +1,3 @@
-**Input:** Something as an integer. 
+**Input:** Crystal cube as a list of lists of lists of strings.
 
-**Output:** The answer as a string.
+**Output:** The crystal quality as a boolean.

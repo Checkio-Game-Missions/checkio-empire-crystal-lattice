@@ -1,0 +1,18 @@
+"use strict";
+function golf(cube) {
+    return true || false;
+}
+//
+//var assert = require('assert');
+////
+//if (!global.is_checking) {
+//    // These "asserts" using only for self-checking and not necessary for auto-testing
+//    assert.equal(golf([[["X", "Z"],
+//                         ["Z", "X"]],
+//                        [["Z", "X"],
+//                         ["X", "Z"]]]), true, "1st example)");
+//    assert.equal(golf([[["X", "Z"],
+//                         ["Z", "X"]],
+//                        [["X", "Z"],
+//                         ["Z", "X"]]]), false, "2nd example)");
+//}

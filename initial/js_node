@@ -4,7 +4,7 @@ function golf(cube) {
 }
 //
 //var assert = require('assert');
-////
+//
 //if (!global.is_checking) {
 //    // These "asserts" using only for self-checking and not necessary for auto-testing
 //    assert.equal(golf([[["X", "Z"],
@@ -15,4 +15,5 @@ function golf(cube) {
 //                         ["Z", "X"]],
 //                        [["X", "Z"],
 //                         ["Z", "X"]]]), false, "2nd example)");
+//    console.log("Now that you're finished, hit the 'Check' button to review your code and earn sweet rewards!");
 //}

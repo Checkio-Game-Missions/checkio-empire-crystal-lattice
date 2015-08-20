@@ -5,7 +5,8 @@ def golf(cube):
 #                   ["Z", "X"]],
 #                  [["Z", "X"],
 #                   ["X", "Z"]]]) == True, "1st example"
-#     assert golf([[["X", "Z"],
+#   assert golf([[["X", "Z"],
 #                   ["Z", "X"]],
 #                  [["X", "Z"],
 #                   ["Z", "X"]]]) == False, "2nd example"
+#   print("All done? Earn rewards by using the 'Check' button!")
